@@ -51,8 +51,8 @@ stream_chem_data <- read_csv(here::here("week4", "data", "HubbardBrook_weekly_st
 #| echo: true
 #| warning: false
 # basic scatter plot ----
-p1 <- stream_chem_data %>%
-  filter(waterYr == 2021) %>%
+p1 <- stream_chem_data |>
+  filter(waterYr == 2021) |>
   ggplot(aes(DOC, pH)) +
   geom_point(alpha = 0.5) +
   theme_classic()

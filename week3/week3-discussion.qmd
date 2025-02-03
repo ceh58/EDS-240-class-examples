@@ -38,7 +38,6 @@ ggplot(data = penguins, aes(x = body_mass_g, fill = species)) +
 
 ![](nyt-monthly-temp.png){fig-alt="A dot plot of monthly global temperature deviations from the 20th century average showing a significant warming trend. From 1975 onward, the yearly temperature is hotter than average, wheras prior to 1975 is it cooler than average."}
 
-
 ### Example 3
 
-<img src="chapman-etal-2024.png" alt="A heatmap of global species observations where species observations are disproportionately from high income countries, particularly North American and European countries." width="700px">
+<img src="chapman-etal-2024.png" alt="A heatmap of global species observations where species observations are disproportionately from high income countries, particularly North American and European countries." width="700px"/>

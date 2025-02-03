@@ -86,4 +86,3 @@ drought_clean |>
   
   theme_linedraw()
 ```
-
