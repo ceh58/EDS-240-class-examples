@@ -332,6 +332,8 @@ penguins_ex2 <- penguins |>
 
 ggplot(penguins_ex2, aes(x = bill_length_mm, y = bill_depth_mm, color = my_color)) +
   geom_point(size = 4, alpha = 0.8) +
-  scale_color_identity()
+  scale_color_identity(guide = "legend",
+                       name = "Body mass (g)",
+                       labels = c(">6000", "<= 6000"))
 ```
 
